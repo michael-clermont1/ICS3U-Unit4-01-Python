@@ -18,10 +18,10 @@ def main():
         while counter <= number_as_int:
             sum_number = sum_number + counter
             counter = counter + 1
+        print("The sum is {0}".format(sum_number))
     except Exception:
         print("That is not a integer.")
     finally:
-        print("The sum is {0}".format(sum_number))
         print("\nDone.")
 
 
